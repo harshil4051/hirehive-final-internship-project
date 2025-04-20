@@ -1,0 +1,63 @@
+/* src/components/admin/settings/AdminSettings.css */
+
+.admin-settings-card {
+    max-width: 600px;
+    margin: 40px auto;
+    background-color: #ffffff;
+    padding: 30px 40px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    font-family: "Segoe UI", sans-serif;
+  }
+  
+  .admin-settings-title {
+    text-align: center;
+    font-size: 24px;
+    font-weight: 600;
+    margin-bottom: 25px;
+    color: #333;
+  }
+  
+  .admin-profile-form {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  
+  .admin-profile-form label {
+    font-size: 14px;
+    font-weight: 500;
+    color: #444;
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+  }
+  
+  .admin-profile-form input {
+    padding: 10px 14px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    font-size: 14px;
+    transition: border-color 0.2s;
+  }
+  
+  .admin-profile-form input:focus {
+    border-color: #10b981;
+    outline: none;
+  }
+  
+  .admin-settings-button {
+    padding: 12px;
+    background-color: #10b981;
+    color: #fff;
+    font-size: 16px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background-color 0.2s;
+  }
+  
+  .admin-settings-button:hover {
+    background-color: #0e9f6e;
+  }
+  

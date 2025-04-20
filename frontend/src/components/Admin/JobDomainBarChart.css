@@ -1,0 +1,30 @@
+/* File: src/components/admin/charts/JobDomainBarChart.css */
+
+.chart-card {
+    background-color: #ffffff;
+    padding: 24px;
+    border-radius: 16px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+  }
+  
+  .chart-header {
+    margin-bottom: 16px;
+  }
+  
+  .chart-title {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #1f2937; /* gray-800 */
+  }
+  
+  .chart-subtitle {
+    color: #6b7280; /* gray-500 */
+    font-size: 0.95rem;
+  }
+  
+  .chart-loading,
+  .chart-empty {
+    color: #9ca3af; /* gray-400 */
+    font-size: 0.95rem;
+  }
+  

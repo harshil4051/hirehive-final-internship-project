@@ -1,0 +1,104 @@
+.manage-users-container {
+    padding: 2rem;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+    margin: 2rem;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+  
+  .title {
+    font-size: 28px;
+    font-weight: 700;
+    margin-bottom: 1.5rem;
+    color: #333;
+  }
+  
+  .filters {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 12px;
+    margin-bottom: 20px;
+  }
+  
+  .filters input,
+  .filters select {
+    padding: 10px 12px;
+    font-size: 15px;
+    border-radius: 6px;
+    border: 1px solid #ccc;
+    transition: all 0.3s ease;
+  }
+  
+  .filters input:focus,
+  .filters select:focus {
+    outline: none;
+    border-color: #3498db;
+    box-shadow: 0 0 0 2px rgba(52, 152, 219, 0.2);
+  }
+  
+  .user-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+  }
+  
+  .user-table th,
+  .user-table td {
+    padding: 14px 12px;
+    border: 1px solid #e0e0e0;
+    text-align: left;
+    font-size: 15px;
+  }
+  
+  .user-table th {
+    background-color: #f9f9f9;
+    color: #555;
+  }
+  
+  .user-table tr:nth-child(even) {
+    background-color: #fcfcfc;
+  }
+  
+  .user-table td.active {
+    color: #27ae60;
+    font-weight: 600;
+  }
+  
+  .user-table td.inactive {
+    color: #c0392b;
+    font-weight: 600;
+  }
+  
+  .action-buttons {
+    display: flex;
+    gap: 8px;
+  }
+  
+  button {
+    padding: 6px 12px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 14px;
+    transition: background-color 0.3s ease;
+  }
+  
+  button.status-toggle {
+    background-color: #2980b9;
+    color: white;
+  }
+  
+  button.status-toggle:hover {
+    background-color: #1c5982;
+  }
+  
+  button.danger {
+    background-color: #e74c3c;
+    color: white;
+  }
+  
+  button.danger:hover {
+    background-color: #c0392b;
+  }
+  

@@ -1,0 +1,59 @@
+.admin-dashboard {
+    max-width: 1200px;
+    margin: auto;
+    padding: 20px;
+  }
+  
+  .admin-heading {
+    font-size: 32px;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  .admin-subheading {
+    font-size: 18px;
+    color: #555;
+    margin-bottom: 30px;
+  }
+  
+  /* Summary cards */
+  .admin-cards {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    margin-bottom: 40px;
+  }
+  
+  .admin-card {
+    flex: 1;
+    min-width: 250px;
+    background-color: #1f2937;
+    color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+  }
+  
+  .admin-card h2 {
+    font-size: 20px;
+    margin-bottom: 10px;
+  }
+  
+  .admin-card p {
+    font-size: 24px;
+    font-weight: bold;
+  }
+  
+  /* Chart Placeholder */
+  .admin-chart-placeholder {
+    padding: 30px;
+    border: 2px dashed #ccc;
+    border-radius: 10px;
+    text-align: center;
+    background-color: #fff;
+  }
+  
+  .admin-chart-placeholder h2 {
+    margin-bottom: 10px;
+  }
+  
